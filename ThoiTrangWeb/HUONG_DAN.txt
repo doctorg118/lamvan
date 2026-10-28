@@ -1,0 +1,26 @@
+WEBSITE THỜI TRANG LAM VÂN - HƯỚNG DẪN CHẠY TRÊN WINDOWS
+
+1. Giải nén file ZIP vào một thư mục, ví dụ Desktop\ThoiTrangWeb.
+2. Cài Node.js bản LTS từ trang chính thức https://nodejs.org/ nếu máy chưa có.
+3. Mở thư mục ThoiTrangWeb, bấm vào thanh địa chỉ của File Explorer, gõ cmd rồi Enter.
+4. Chạy lần lượt:
+   npm install
+   npm start
+5. Mở trình duyệt và vào http://localhost:3000
+6. Dừng máy chủ: quay lại cửa sổ CMD và nhấn Ctrl + C.
+
+TÍNH NĂNG BẢN DEMO
+- Trang chủ phong cách boutique thời trang nữ, co giãn trên máy tính và điện thoại.
+- Danh mục, tìm kiếm, lọc và sắp xếp sản phẩm.
+- Xem chi tiết sản phẩm, chọn size, thêm/xóa sản phẩm trong giỏ hàng.
+- Có khu vực bộ sưu tập, newsletter và chân trang.
+
+LƯU Ý TRƯỚC KHI BÁN HÀNG THẬT
+- Tên thương hiệu Lam Vân đã được áp dụng trên giao diện. Hotline, email, giá, ảnh và mô tả vẫn là dữ liệu mẫu; hãy thay bằng thông tin thật của cửa hàng.
+- Ảnh minh họa được tải từ Unsplash qua Internet; cần có kết nối Internet. Hãy dùng ảnh sản phẩm của bạn khi triển khai thật.
+- Bản hiện tại chưa có quản trị sản phẩm, cơ sở dữ liệu, lưu đơn hàng trên máy chủ, đăng nhập khách hàng, thanh toán, vận chuyển hoặc hóa đơn.
+- Giỏ hàng chỉ hoạt động trong phiên trình duyệt hiện tại; chưa phải hệ thống thương mại điện tử hoàn chỉnh.
+- Giao diện lấy cảm hứng từ phong cách thời trang tối giản; logo và nội dung thương hiệu được đặt là Lam Vân.
+
+ĐƯA LÊN INTERNET
+Bạn cần chọn dịch vụ hosting phù hợp. Vì bản demo hiện là Node.js, hãy dùng nền tảng hỗ trợ Node.js. Nếu muốn lưu đơn hàng/sản phẩm bền vững, cần bổ sung cơ sở dữ liệu và cấu hình lưu trữ trước khi triển khai.
